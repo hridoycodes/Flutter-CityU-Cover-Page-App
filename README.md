@@ -25,11 +25,11 @@ This project is based on Flutter and Dart, with modifications and additional fea
 
 ### Home Screen
 
-![Home Screen](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/home.png)
+![Home Screen](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/4.png)
 
 ### Cover Page Creation
 
-![Cover Page Creation](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/cover_page.png)
+![Cover Page Creation](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/1.png)
 
 ### Cover Page Preview
 
