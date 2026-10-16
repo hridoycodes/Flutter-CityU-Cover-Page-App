@@ -1,0 +1,102 @@
+// import 'package:flutter/material.dart';
+// import 'package:flutter_pdfview/flutter_pdfview.dart';
+// import 'package:open_file/open_file.dart';
+// import 'dart:io';
+// import 'package:cityu_cover_page/core/utils/message_utils.dart';
+//
+// class PdfPreviewScreen extends StatelessWidget {
+//   static Route route(String pdfPath) => MaterialPageRoute(builder: (_) => PdfPreviewScreen(pdfPath: pdfPath));
+//   final String pdfPath;
+//
+//   const PdfPreviewScreen({
+//     super.key,
+//     required this.pdfPath,
+//   });
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text(
+//           'PDF Preview',
+//           style: Theme.of(context).textTheme.headlineSmall,
+//         ),
+//         centerTitle: true,
+//         forceMaterialTransparency: true,
+//         bottom: PreferredSize(
+//           preferredSize: const Size.fromHeight(1.5),
+//           child: Container(
+//             color: Colors.grey.withOpacity(0.2),
+//             height: 1.5,
+//           ),
+//         ),
+//       ),
+//       body: Padding(
+//         padding: const EdgeInsets.all(16.0),
+//         child: File(pdfPath).existsSync() ? _viewPdf(context) : _errorMsg(context),
+//       ),
+//     );
+//   }
+//
+//   Widget _viewPdf(BuildContext context) {
+//     return Column(
+//       children: [
+//         Expanded(
+//           child: Center(
+//             child: Container(
+//               decoration: BoxDecoration(
+//                 color: Colors.white,
+//                 border: Border.all(
+//                   color: Colors.grey.shade400,
+//                   width: 2.0,
+//                 ),
+//                 borderRadius: BorderRadius.circular(8.0),
+//               ),
+//               child: Padding(
+//                 padding: const EdgeInsets.all(4),
+//                 child: AspectRatio(
+//                   aspectRatio: 1 / 1.414,
+//                   child: PDFView(
+//                     filePath: pdfPath,
+//                   ),
+//                 ),
+//               ),
+//             ),
+//           ),
+//         ),
+//         const SizedBox(height: 16),
+//         SizedBox(
+//           width: double.infinity,
+//           height: 50,
+//           child: ElevatedButton(
+//             onPressed: () {
+//               _openPdf(pdfPath, context);
+//             },
+//             child: const Text('Open PDF'),
+//           ),
+//         ),
+//       ],
+//     );
+//   }
+//
+//   Widget _errorMsg(BuildContext context) {
+//     return Center(
+//       child: Column(
+//         mainAxisAlignment: MainAxisAlignment.center,
+//         children: [
+//           Text(
+//             "PDF file not found!",
+//             style: Theme.of(context).textTheme.titleMedium,
+//           ),
+//         ],
+//       ),
+//     );
+//   }
+//
+//   Future<void> _openPdf(String pdfPath, BuildContext context) async {
+//     final result = await OpenFile.open(pdfPath);
+//     if (result.type != ResultType.done) {
+//       MessageUtils.showToast("Failed to open the PDF file", type: MessageType.error);
+//     }
+//   }
+// }
