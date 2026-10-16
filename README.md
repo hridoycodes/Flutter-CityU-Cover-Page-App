@@ -1,4 +1,4 @@
-# CityU Cover Page App
+# City University, Bangladesh Cover Page App
 
 A Flutter-based application designed to help City University students create academic cover pages for assignments, lab reports, and other university coursework.
 
@@ -6,38 +6,50 @@ A Flutter-based application designed to help City University students create aca
 
 CityU Cover Page App aims to make academic cover page creation easier and more convenient for students. It provides a dedicated interface for preparing cover pages without having to design every page manually.
 
-This project is based on Flutter and Dart, with modifications and additional features introduced to suit the project's requirements.
+This project is based on Flutter and Dart.
+
+**Developer Portfolio Website:** https://hridoycodes.vercel.app/
+
+**App Download Link:** [Flutter-CityU-Cover-Page-App](https://github.com/hridoycodes/Flutter-CityU-Cover-Page-App)
 
 ## Features
 
-- **Assignment Cover Page** — Prepare cover pages for university assignments.
-- **Lab Report Cover Page** — Create cover pages for academic lab reports.
-- **Student Information** — Enter relevant student details.
-- **Course Information** — Add course-related information to the cover page.
-- **Simple User Interface** — Create cover pages through a straightforward interface.
-- **Preview** — Review the generated cover page, if supported by the current implementation.
-- **Export or Save** — Save or export cover pages using the formats supported by the app.
-- **Additional Improvements** — Includes modifications and extra features beyond the original project.
+- **Assignment Cover Page Generator** — Generate cover pages for university assignments quickly and easily.
+- **Lab Report Cover Page Generator** — Create professional cover pages for university lab reports.
+- **4 Pre-Built Templates** — Choose from four ready-made cover page templates.
+- **Fast Cover Page Generation** — Generate academic cover pages with minimal effort.
+- **Modern UI Design** — Enjoy a clean, attractive, and user-friendly interface.
+- **Student Information** — Add student details required for academic cover pages.
+- **Course Information** — Include course title, course code, and other relevant academic details.
+- **Registration Screen** — Access the app through a dedicated registration interface.
+- **Splash Screen** — View an introductory screen when launching the app.
+- **Navigation Drawer** — Navigate between app sections conveniently.
+- **Easy Navigation** — Access the main features through a simple navigation flow.
+- **Cover Page Preview** — Review the generated cover page before using it.
+- **Reusable Templates** — Simplify the process of creating consistent academic cover pages.
+- **Academic Productivity** — Reduce the time needed to prepare assignment and lab report cover pages.
 
 *Note: The exact features depend on the current implementation. Keep only the features available in your version of the app.*
 
-## Screenshots
+### Screenshots Demo
 
-### Home Screen
-
-![Home Screen](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/4.png)
-
-### Cover Page Creation
-
-![Cover Page Creation](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/1.png)
-
-### Cover Page Preview
-
-![Cover Page Preview](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/preview.png)
-
-### Exported Cover Page
-
-![Exported Cover Page](https://raw.githubusercontent.com/hridoycodes/CityU-App-Screenshots/main/export.png)
+<table>
+  <tr>
+    <td><img src="screenshot_demo/4.png" width="200" alt="Screenshot 4"></td>
+    <td><img src="screenshot_demo/1.png" width="200" alt="Screenshot 1"></td>
+    <td><img src="screenshot_demo/2.png" width="200" alt="Screenshot 2"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot_demo/3.png" width="200" alt="Screenshot 3"></td>
+    <td><img src="screenshot_demo/5.png" width="200" alt="Screenshot 5"></td>
+    <td><img src="screenshot_demo/6.png" width="200" alt="Screenshot 6"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshot_demo/7.png" width="200" alt="Screenshot 7"></td>
+    <td><img src="screenshot_demo/8.png" width="200" alt="Screenshot 8"></td>
+    <td><img src="screenshot_demo/9.png" width="200" alt="Screenshot 9"></td>
+  </tr>
+</table>
 
 ## Tech Stack
 
@@ -57,6 +69,7 @@ Before getting started, make sure you have installed:
 - [Flutter SDK](https://docs.flutter.dev/get-started/install)
 - Dart SDK
 - [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/)
+- Java 17 Must Installed
 - An Android emulator or a compatible physical device
 
 ### Installation
@@ -91,6 +104,18 @@ Connect your device or start an emulator, then run:
 
 ```bash
 flutter run
+or
+flutter run --android-skip-build-dependency-validation
+```
+
+**6. Generate Debug or Release Apk**
+
+Connect your device or start an emulator, then run:
+
+```bash
+flutter build apk --debug --android-skip-build-dependency-validation
+or
+flutter build apk --release --android-skip-build-dependency-validation
 ```
 
 ## Project Structure
@@ -122,6 +147,10 @@ To execute the automated tests, if configured, run:
 flutter test
 ```
 
+## License
+
+This Project is created only for educational purposes to help generating Assignment and Lab report cover pages quickly.
+
 ## Contributing
 
 Suggestions, improvements, and bug reports are welcome.
@@ -132,20 +161,9 @@ Suggestions, improvements, and bug reports are welcome.
 4. Commit your changes with a descriptive message.
 5. Submit a pull request describing your contribution.
 
-## License and Attribution
-
-This project is a modified version of an existing publicly available project.
-
-Please review the original repository's license and comply with its terms, including any required copyright notices, license text, and attribution. The applicable license should be confirmed before redistribution.
-
 ## Developer
 
 **GitHub:** [hridoycodes](https://github.com/hridoycodes)
-
-**Project Repository:** [Flutter-CityU-Cover-Page-App](https://github.com/hridoycodes/Flutter-CityU-Cover-Page-App)
-
-**Screenshot Repository:** [CityU-App-Screenshots](https://github.com/hridoycodes/CityU-App-Screenshots)
-
 ---
 
-Developed and modified with Flutter and Dart.
+Developed with Flutter and Dart.
