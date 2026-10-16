@@ -161,7 +161,7 @@ Suggestions, improvements, and bug reports are welcome.
 4. Commit your changes with a descriptive message.
 5. Submit a pull request describing your contribution.
 
-## Developer
+## Developer: Md. Hridoy
 
 **GitHub:** [hridoycodes](https://github.com/hridoycodes)
 ---
