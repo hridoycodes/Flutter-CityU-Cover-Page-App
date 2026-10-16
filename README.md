@@ -10,7 +10,7 @@ This project is based on Flutter and Dart.
 
 **Developer Portfolio Website:** https://hridoycodes.vercel.app/
 
-**App Download Link:** [Flutter-CityU-Cover-Page-App](https://github.com/hridoycodes/Flutter-CityU-Cover-Page-App)
+**App Download Link:** Not available now, clone the repository and install it.
 
 ## Features
 
